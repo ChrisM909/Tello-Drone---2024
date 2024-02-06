@@ -44,9 +44,9 @@ recvThread.start()
 # CREATE FUNCTIONS HERE....
 
 
-print("\n First and Last Names")
-print("Program Name: ")
-print("Date: ")
+print("\nChristopher Melbow/")
+print("Program Name: Autonomous")
+print("Date: 2.6.2024")
 print("\n****CHECK YOUR TELLO WIFI ADDRESS****")
 print("\n****CHECK SURROUNDING AREA BEFORE FLIGHT****")
 ready = input('\nAre you ready to take flight: ')
