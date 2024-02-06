@@ -44,7 +44,7 @@ recvThread.start()
 # CREATE FUNCTIONS HERE....
 
 
-print("\nChristopher Melbow/")
+print("\nChristopher Melbow/Ryan Jerzyk")
 print("Program Name: Autonomous")
 print("Date: 2.6.2024")
 print("\n****CHECK YOUR TELLO WIFI ADDRESS****")
