@@ -47,7 +47,7 @@ recvThread.start()
 print("\nChristopher Melbow")
 print("Program Name: Square")
 print("Date: 2.6.2024")
-print("Drone WIFI = DDCF")
+print("Drone WIFI = 4E1D")
 print("\n****CHECK YOUR TELLO WIFI ADDRESS****")
 print("\n****CHECK SURROUNDING AREA BEFORE FLIGHT****")
 ready = input('\nAre you ready to take flight: ')
@@ -57,12 +57,16 @@ try:
     if ready.lower() == 'yes':
         print("\nStarting Drone!\n")
 
-        sendmsg('command', 0)
-        sendmsg('takeoff')
-
-        sendmsg('up 50', 10)
-        sendmsg('forward 50')
-
+        sendmsg('command')
+        sendmsg('takeoff',10)
+        sendmsg('forward 50',10)
+        sendmsg('ccw 90',10)
+        sendmsg('forward 50', 10)
+        sendmsg('ccw 90', 10)
+        sendmsg('forward 50', 10)
+        sendmsg('ccw 90', 10)
+        sendmsg('forward 50', 10)
+        sendmsg('ccw 90', 10)
         sendmsg('land')
 
         print('\nGreat Flight!!!')
