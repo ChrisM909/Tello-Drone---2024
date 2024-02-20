@@ -60,7 +60,7 @@ try:
         sendmsg('battery?')
         sendmsg('command')
         sendmsg('takeoff', 7)
-        sendmsg('forward 200', 7)
+        sendmsg('forward 230', 7)
 
         # Review the (SDK) Software Development Kit resource for Drone Commands
         # Delete these comments before writing your program
