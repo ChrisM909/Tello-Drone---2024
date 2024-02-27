@@ -56,6 +56,21 @@ ready = input('\nAre you ready to take flight: ')
 if ready.lower() == 'yes':
     print("\nStarting Drone!\n")
 
+    # Square
+    sendmsg('command')
+    sendmsg('battery?')
+    sendmsg('takeoff', 10)
+    sendmsg('forward 50', 10)
+    sendmsg('ccw 90', 10)
+    sendmsg('forward 50', 10)
+    sendmsg('ccw 90', 10)
+    sendmsg('forward 50', 10)
+    sendmsg('ccw 90', 10)
+    sendmsg('forward 50', 10)
+    sendmsg('ccw 90', 10)
+    sendmsg('land')
+
+    # Triangle
     sendmsg('command')
     sendmsg('battery?')
     sendmsg('takeoff',10)
